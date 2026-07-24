@@ -1,0 +1,11 @@
+History/
+__History/
+Project Logs for */
+Project Outputs for */
+Outputs/
+*.PcbDoc.htm
+*.SchDoc.Zip
+*.Compile-Log
+*.LOG
+*.Lock
+__Previews/
