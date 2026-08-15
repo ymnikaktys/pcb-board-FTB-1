@@ -47,8 +47,7 @@ Developed in Altium Designer. Hardware verification and transient analysis perfo
 │   ├── INRUSH CURRENT wth deff.qsch           # Soft-start pre-charge simulation modeling XT90-S Anti-Spark behavior (4.5A)
 │   ├── Power Integrity — PI.qsch              # 5V digital logic rail stability under pulsed NPU load (YOLOv8 inference)
 │   └── Ground_Bounce_on_UART.qsch             # MAVLink telemetry UART Ground Bounce & signal integrity analysis
-├── Docs/
-│   └── Simulations QSPICE.pdf                 # Full 45-page engineering calculations & simulation report (russion language)
+│── Simulations QSPICE.pdf                 # Full 45-page engineering calculations & simulation report (russion language)
 ├── top_layer.png                              # Top layer PCB preview image
 ├── bottom_layer.png                           # Bottom layer PCB preview image
 └── README.md
