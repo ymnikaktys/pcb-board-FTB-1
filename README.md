@@ -31,14 +31,14 @@ Developed in Altium Designer. Hardware verification and transient analysis perfo
 
 ```text
 ├── Hardware/
-│   ├── PDB_Core_6S2P_v1.6.PrjPcb    # Main Altium project
-│   ├── PDB_Schematic_v1.6.SchDoc    # Schematic document
-│   └── PDB_Layout_2oz_v1.6.PcbDoc   # PCB layout document
+│   ├── PDB_Core_6S2P_v1.7.PrjPcb    # Main Altium project
+│   ├── PDB_Schematic_v1.7.SchDoc    # Schematic document
+│   └── PDB_Layout_2oz_v1.7.PcbDoc   # PCB layout document
 ├── Libraries/
-│   ├── PDB_Components_v1.6.SchLib   # Custom SCH library
-│   └── PDB_Footprints_v1.6.PcbLib   # Custom PCB footprint library
+│   ├── PDB_Components_v1.7.SchLib   # Custom SCH library
+│   └── PDB_Footprints_v1.7.PcbLib   # Custom PCB footprint library
 ├── Manufacturing/                    
-│   └── Gerber_NC_Drill_v1.6.rar     # Production files
+│   └── Gerber_NC_Drill_v1.7.rar     # Production files
 ├──Simulations/
 │   ├── MACRO.qsch                             # Full-system 6S2P power network macro-model & voltage sag analysis
 │   ├── ESC_HF_PhaseShift_v1.0.qsch            # High-frequency MOSFET half-bridge inverter, switching ringing & snubber

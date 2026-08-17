@@ -1,0 +1,17 @@
+# Altium history & local backups (all folders)
+**/History/
+**/__Previews/
+**/Project Logs for */
+**/Project Outputs for */
+
+# Structure & cache
+*.PrjPcbStructure
+*.PcbDoc.Preview
+*.SchDoc.Preview
+*.Annotation
+
+# Temporary & crash dumps
+*.WAS
+*.tmp
+*.~*
+*.dmp
