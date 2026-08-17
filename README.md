@@ -31,14 +31,14 @@ Developed in Altium Designer. Hardware verification and transient analysis perfo
 
 ```text
 ├── Hardware/
-│   ├── PDB_Core_6S2P_v1.0.PrjPcb    # Main Altium project
-│   ├── PDB_Schematic_v1.0.SchDoc    # Schematic document
-│   └── PDB_Layout_2oz_v1.0.PcbDoc   # PCB layout document
+│   ├── PDB_Core_6S2P_v1.6.PrjPcb    # Main Altium project
+│   ├── PDB_Schematic_v1.6.SchDoc    # Schematic document
+│   └── PDB_Layout_2oz_v1.6.PcbDoc   # PCB layout document
 ├── Libraries/
-│   ├── PDB_Components.SchLib        # Custom SCH library
-│   └── PDB_Footprints_v1.0.PcbLib   # Custom PCB footprint library
+│   ├── PDB_Components_v1.6.SchLib   # Custom SCH library
+│   └── PDB_Footprints_v1.6.PcbLib   # Custom PCB footprint library
 ├── Manufacturing/                    
-│   └── Gerber_NC_Drill_v1.0.zip     # Production files
+│   └── Gerber_NC_Drill_v1.6.rar     # Production files
 ├──Simulations/
 │   ├── MACRO.qsch                             # Full-system 6S2P power network macro-model & voltage sag analysis
 │   ├── ESC_HF_PhaseShift_v1.0.qsch            # High-frequency MOSFET half-bridge inverter, switching ringing & snubber
@@ -47,7 +47,8 @@ Developed in Altium Designer. Hardware verification and transient analysis perfo
 │   ├── INRUSH CURRENT wth deff.qsch           # Soft-start pre-charge simulation modeling XT90-S Anti-Spark behavior (4.5A)
 │   ├── Power Integrity — PI.qsch              # 5V digital logic rail stability under pulsed NPU load (YOLOv8 inference)
 │   └── Ground_Bounce_on_UART.qsch             # MAVLink telemetry UART Ground Bounce & signal integrity analysis
-│── Simulations QSPICE.pdf                 # Full 45-page engineering calculations & simulation report (russion language)
+├── Docs/
+│   └── Simulations QSPICE.pdf                 # Full 45-page engineering calculations & simulation report (russion language)
 ├── top_layer.png                              # Top layer PCB preview image
 ├── bottom_layer.png                           # Bottom layer PCB preview image
 └── README.md
